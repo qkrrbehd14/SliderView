@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/cat"
+        android:layout_margin="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_background"
+        android:text="사진일기"
+        android:textSize="15dp"/>
+
+
+        <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+            android:textSize="15dp"
+            android:background="@drawable/button_background"
+        android:text="푸쉬알람"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:textSize="15dp"
+        android:background="@drawable/button_background"
+        android:text="슬라이드 쇼" />
+
+    </LinearLayout>
+
+</LinearLayout>
